@@ -22,52 +22,69 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+Certainly! Here’s a description for the `todo-api-neon` GitHub repository that you can use:
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+---
 
-## Installation
+## todo-api-neon
 
-bash
-$ npm install
+A **Todo API** built with **NestJS** and **PostgreSQL** hosted on **Neon.tech**. This project demonstrates how to create a simple todo list application using modern technologies and deploy it using a cloud-based database service.
 
+### Features
 
-## Running the app
+- **CRUD Operations**: Create, Read, Update, and Delete todo items.
+- **API Documentation**: Interactive API documentation using Swagger.
+- **Database Integration**: Utilizes PostgreSQL for persistent data storage, hosted on Neon.tech.
+- **Data Validation**: Implements data validation using DTOs with class-validator.
+- **Environment Configuration**: Configured with environment variables for flexible deployment.
 
-bash
-# development
-$ npm run start
+### Technologies Used
 
-# watch mode
-$ npm run start:dev
+- **NestJS**: A progressive Node.js framework for building efficient and scalable server-side applications.
+- **TypeORM**: An ORM for TypeScript and JavaScript that works with PostgreSQL.
+- **PostgreSQL**: A powerful, open-source relational database.
+- **Neon.tech**: A cloud-native PostgreSQL database-as-a-service.
+- **Swagger**: For API documentation and interactive testing.
 
-# production mode
-$ npm run start:prod
+### Installation
 
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/todo-api-neon.git
+   cd todo-api-neon
+   ```
 
-## Test
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
 
-bash
-# unit tests
-$ npm run test
+3. **Configure Environment Variables:**
+   - Create a `.env` file in the root directory and add your database connection string and other configurations.
 
-# e2e tests
-$ npm run test:e2e
+4. **Run the Application:**
+   ```bash
+   npm run start:dev
+   ```
 
-# test coverage
-$ npm run test:cov
+5. **Access Swagger UI:**
+   - Open `http://localhost:3000/api` in your browser to interact with the API.
 
+### API Endpoints
 
-## Support
+- **GET /todos**: Retrieve all todo items.
+- **POST /todos**: Create a new todo item.
+- **PUT /todos/:id**: Update an existing todo item by ID.
+- **DELETE /todos/:id**: Delete a todo item by ID.
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+### Contributing
 
-## Stay in touch
+Feel free to fork the repository and submit pull requests. For issues or feature requests, please open an issue on GitHub.
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+### License
 
-## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Nest is [MIT licensed](LICENSE).
+---
+
+You can customize the repository URL, environment variables, and any other specific details according to your project's setup.
