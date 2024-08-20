@@ -28,7 +28,7 @@ Certainly! Here’s a description for the `todo-api-neon` GitHub repository that
 
 ## todo-api-neon
 
-A **Todo API** built with **NestJS** and **PostgreSQL** hosted on **Neon.tech**. This project demonstrates how to create a simple todo list application using modern technologies and deploy it using a cloud-based database service.
+A **Todo API** built with **NestJS** and **PostgreSQL** hosted on **Neon.tech**. This project create a simple todo list application using modern technologies and deploy it using a cloud-based database service.
 
 ### Features
 
